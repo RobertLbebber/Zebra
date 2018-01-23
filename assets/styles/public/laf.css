@@ -1,0 +1,24 @@
+nav.navbar{
+    background-color: #b4a7d6 !important; 
+}
+nav.navbar div.navbar-brand .brand{
+    color: white; 
+    padding-left: 1rem;
+    font-size: 3.5rem;
+}
+
+nav.navbar ul.navbar-top-links .fa{
+    color:#8f86a7 !important; 
+}
+
+nav.navbar ul.navbar-top-links li .fa.active{
+    color:#fff !important; 
+}
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: rgb(224, 179, 28);
+}
+
+div.alert-danger.serverr li{
+    margin: 10px;
+}

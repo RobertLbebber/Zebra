@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        <%=typeof title == 'undefined' ? 'Zebra' : title%>
+    </title>
+
+    <!-- Viewport mobile tag for sensible mobile support -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Bootstrap Core CSS -->
+    <link href="/content/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="/content/vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/content/dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Morris Charts CSS -->
+    <link href="/content/vendor/morrisjs/morris.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="/content/vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--STYLES-->
+    <link rel="stylesheet" href="/styles/public/importer.css">
+    <link rel="stylesheet" href="/styles/public/laf.css">
+    <!--STYLES END-->
+</head>
+
+<body>
+    <div id="wrapper">
+        <!-- In future Use Session to allow this Menu -->
+        <% include nav-menus.ejs %>
+        <div id="page-wrapper">
+            <%- body %>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="/content/vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/content/vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/content/vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="/content/vendor/raphael/raphael.min.js"></script>
+    <script src="/content/vendor/morrisjs/morris.min.js"></script>
+    <script src="/content/data/morris-data.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="/content/dist/js/sb-admin-2.js"></script>
+</body>
+
+</html>
